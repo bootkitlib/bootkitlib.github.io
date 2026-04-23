@@ -1,0 +1,1 @@
+import{T as t,la as o}from"./chunk-NDAUVF2H.js";var n=class e{showSidenav=o(!1);menuItems=o([]);constructor(){}static \u0275fac=function(a){return new(a||e)};static \u0275prov=t({token:e,factory:e.\u0275fac,providedIn:"root"})};export{n as a};
