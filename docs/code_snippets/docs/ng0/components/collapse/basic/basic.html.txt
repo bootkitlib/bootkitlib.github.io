@@ -1,0 +1,11 @@
+<ng0-collapse [collapsed]="collapsed()">
+    this is a collapsable div. <br />
+    this is a collapsable div. <br />
+    this is a collapsable div. <br />
+</ng0-collapse>
+
+<button
+    class="btn btn-primary"
+    (click)="collapsed.set(!collapsed())">
+    Toggle Collapse
+</button>
