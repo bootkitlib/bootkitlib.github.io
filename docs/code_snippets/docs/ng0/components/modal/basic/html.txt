@@ -1,0 +1,13 @@
+<ng0-modal
+    [open]="_showCases.basic.show()"
+    (backdropClick)="_showCases.basic.show.set(false)"
+    (closeRequest)="_showCases.basic.show.set(false)">
+    <div class="modal-body">
+        <p>
+            This is a simple modal. <br />
+            It will be closed when user clicks backdrop or presses ESC.
+        </p>
+    </div>
+</ng0-modal>
+
+<button class="btn btn-secondary me-2" (click)="_showCases.basic.show.set(true)">Open Modal</button>

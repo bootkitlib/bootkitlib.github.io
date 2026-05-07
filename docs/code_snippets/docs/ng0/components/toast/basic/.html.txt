@@ -1,0 +1,16 @@
+<ng0-dropdown>
+    Primary
+    <ng0-dropdown-menu>
+        <ng0-dropdown-item (click)="thankYou()">Action</ng0-dropdown-item>
+        <ng0-dropdown-divider />
+        <ng0-dropdown-item toggleCss="text-danger">Another action</ng0-dropdown-item>
+        <ng0-dropdown-link link="/"> Home Page (link) </ng0-dropdown-link>
+        <ng0-dropdown-link link="/" target="_blank">
+            Home Page (link, target: _blank)
+        </ng0-dropdown-link>
+        <ng0-dropdown-divider />
+        <ng0-dropdown-link link="/" [active]="['fw-bold', 'text-info']">
+            Active route with custom css class (link)
+        </ng0-dropdown-link>
+    </ng0-dropdown-menu>
+</ng0-dropdown>
